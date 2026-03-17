@@ -47,9 +47,9 @@ const Privacy = () => {
             If you have any questions about this Privacy Policy or how we handle your personal information, please contact us at:
           </p>
           <ul className="text-muted-foreground mb-6 list-none pl-0 space-y-1">
-            <li>Email: info@syncinsurance.co.ke</li>
-            <li>Phone: +254 700 000 000</li>
-            <li>Address: Nairobi, Kenya</li>
+            <li>Email: info@syncinsurancagency.com</li>
+            <li>Phone: +254 750 612 347</li>
+            <li>Address: Jubilee Exchange Building, Mama Ngina Street, P.O Box 34367-00100, Nairobi, Kenya</li>
           </ul>
         </div>
       </section>

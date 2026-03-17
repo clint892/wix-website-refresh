@@ -81,7 +81,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
-                Nairobi, Kenya
+                Jubilee Exchange Building, Mama Ngina Street, P.O Box 34367-00100, Nairobi, Kenya
               </li>
             </ul>
           </div>

@@ -22,9 +22,9 @@ const Contact = () => {
             <div className="space-y-6">
               <h2 className="font-display text-2xl font-bold mb-6">Contact Information</h2>
               {[
-                { icon: Phone, title: "Phone", lines: ["+254 700 000 000", "+254 711 000 000"] },
-                { icon: Mail, title: "Email", lines: ["info@syncinsurance.co.ke", "claims@syncinsurance.co.ke"] },
-                { icon: MapPin, title: "Office", lines: ["Nairobi, Kenya", "CBD Area"] },
+                { icon: Phone, title: "Phone", lines: ["+254 750 612 347"] },
+                { icon: Mail, title: "Email", lines: ["info@syncinsurancagency.com"] },
+                { icon: MapPin, title: "Office", lines: ["Jubilee Exchange Building, Mama Ngina Street", "P.O Box 34367-00100, Nairobi, Kenya"] },
                 { icon: Clock, title: "Business Hours", lines: ["Mon - Fri: 8:00 AM - 5:00 PM", "Sat: 9:00 AM - 1:00 PM"] },
               ].map((item) => (
                 <Card key={item.title} className="border-none shadow-sm">

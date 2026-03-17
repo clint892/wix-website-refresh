@@ -242,9 +242,9 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
             <div className="space-y-6">
               {[
-                { icon: Phone, title: "Call Us", detail: "+254 700 000 000", sub: "+254 711 000 000" },
-                { icon: Mail, title: "Email Us", detail: "info@syncinsurance.co.ke" },
-                { icon: MapPin, title: "Visit Us", detail: "Nairobi, Kenya", sub: "Mon - Fri: 8am - 5pm" },
+                { icon: Phone, title: "Call Us", detail: "+254 750 612 347" },
+                { icon: Mail, title: "Email Us", detail: "info@syncinsurancagency.com" },
+                { icon: MapPin, title: "Visit Us", detail: "Jubilee Exchange Building, Mama Ngina Street", sub: "P.O Box 34367-00100, Nairobi, Kenya" },
               ].map((c) => (
                 <Card key={c.title} className="border-none shadow-sm">
                   <CardContent className="flex items-start gap-4 p-5">
