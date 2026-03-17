@@ -75,7 +75,7 @@ const Navbar = () => {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
-            <a href="tel:+254700000000" className="flex items-center gap-1.5 text-sm font-medium">
+            <a href="tel:+254750612347" className="flex items-center gap-1.5 text-sm font-medium">
               <Phone className="h-4 w-4" />
               Call Now
             </a>
@@ -117,7 +117,7 @@ const Navbar = () => {
             <Link to="/news" onClick={() => setIsOpen(false)} className="block px-4 py-3 hover:bg-primary-foreground/10">News</Link>
 
             <div className="px-4 pt-3 flex flex-col gap-2">
-              <a href="tel:+254700000000" className="flex items-center justify-center gap-2 py-2.5 border border-primary-foreground/30 rounded-md">
+              <a href="tel:+254750612347" className="flex items-center justify-center gap-2 py-2.5 border border-primary-foreground/30 rounded-md">
                 <Phone className="h-4 w-4" /> Call Now
               </a>
               <Link to="/contact" onClick={() => setIsOpen(false)}>

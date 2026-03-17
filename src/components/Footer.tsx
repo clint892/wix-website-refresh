@@ -72,17 +72,16 @@ const Footer = () => {
               <li className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <Phone className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
                 <div>
-                  <p>+254 700 000 000</p>
-                  <p>+254 711 000 000</p>
+                  <p>+254 750 612 347</p>
                 </div>
               </li>
               <li className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <Mail className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
-                info@syncinsurance.co.ke
+                info@syncinsurancagency.com
               </li>
               <li className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
-                Nairobi, Kenya
+                Jubilee Exchange Building, Mama Ngina Street, P.O Box 34367-00100, Nairobi, Kenya
               </li>
             </ul>
           </div>
