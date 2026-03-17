@@ -75,7 +75,7 @@ const Navbar = () => {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
-            <a href="tel:+254700000000" className="flex items-center gap-1.5 text-sm font-medium">
+            <a href="tel:+254750612347" className="flex items-center gap-1.5 text-sm font-medium">
               <Phone className="h-4 w-4" />
               Call Now
             </a>
