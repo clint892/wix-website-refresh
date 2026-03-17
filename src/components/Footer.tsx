@@ -77,7 +77,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <Mail className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
-                info@syncinsurance.co.ke
+                info@syncinsurancagency.com
               </li>
               <li className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
