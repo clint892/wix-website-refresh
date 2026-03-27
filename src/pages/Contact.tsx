@@ -7,6 +7,7 @@ import SEO from "@/components/SEO";
 const Contact = () => {
   return (
     <Layout>
+      <SEO title="Contact Us" description="Get in touch with Sync Insurance Agency. Call +254 750 612 347 or visit us at Jubilee Exchange Building, Nairobi." canonical="/contact" />
       <section className="bg-primary text-primary-foreground py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>

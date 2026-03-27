@@ -21,6 +21,7 @@ const values = [
 const About = () => {
   return (
     <Layout>
+      <SEO title="About Us" description="Learn about Sync Insurance Agency — your trusted insurance partner in Kenya with years of experience providing comprehensive coverage solutions." canonical="/about" />
       {/* Hero */}
       <section className="bg-primary text-primary-foreground py-16 md:py-24">
         <div className="container mx-auto px-4">
