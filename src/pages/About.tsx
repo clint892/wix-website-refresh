@@ -3,6 +3,7 @@ import { Shield, Target, Eye, Users, Award, CheckCircle, Heart } from "lucide-re
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import SEO from "@/components/SEO";
 
 const team = [
   { name: "John Kamau", role: "Managing Director", desc: "20+ years in insurance industry leadership." },
@@ -20,6 +21,7 @@ const values = [
 const About = () => {
   return (
     <Layout>
+      <SEO title="About Us" description="Learn about Sync Insurance Agency — your trusted insurance partner in Kenya with years of experience providing comprehensive coverage solutions." canonical="/about" />
       {/* Hero */}
       <section className="bg-primary text-primary-foreground py-16 md:py-24">
         <div className="container mx-auto px-4">

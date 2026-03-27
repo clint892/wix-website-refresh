@@ -5,6 +5,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Shield, Heart, Car, Briefcase, Users, Plane, Tractor, FileCheck, Package, ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, Clock, Award } from "lucide-react";
 import Layout from "@/components/Layout";
 import ContactForm from "@/components/ContactForm";
+import SEO from "@/components/SEO";
 
 const services = [
   { icon: Heart, title: "Health Insurance", desc: "Comprehensive medical coverage for you and your family. Access quality healthcare without financial worry.", path: "/services/health" },
@@ -40,6 +41,7 @@ const testimonials = [
 const Index = () => {
   return (
     <Layout>
+      <SEO title="Home" description="Sync Insurance Agency provides trusted insurance solutions for individuals and businesses across Kenya. Get free quotes for health, motor, business, life, and travel insurance." canonical="/" />
       {/* Hero Section */}
       <section className="relative bg-primary text-primary-foreground overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary via-navy-dark to-primary opacity-90" />

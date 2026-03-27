@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import { Card, CardContent } from "@/components/ui/card";
 import { Calendar } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const articles = [
   { title: "Understanding Health Insurance in Kenya", date: "March 10, 2026", excerpt: "A comprehensive guide to choosing the right health insurance plan for you and your family in Kenya.", category: "Health" },
@@ -14,6 +15,7 @@ const articles = [
 const News = () => {
   return (
     <Layout>
+      <SEO title="News & Insights" description="Stay informed with the latest insurance news, tips, and industry insights from Sync Insurance Agency." canonical="/news" />
       <section className="bg-primary text-primary-foreground py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-4">News & Insights</h1>

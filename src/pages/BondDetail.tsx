@@ -3,6 +3,7 @@ import Layout from "@/components/Layout";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, Shield, FileCheck } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const bondData: Record<string, { title: string; icon: any; desc: string; details: string; types: string[]; process: string[] }> = {
   performance: {
@@ -42,6 +43,7 @@ const BondDetail = () => {
 
   return (
     <Layout>
+      <SEO title={bond.title} description={bond.desc.substring(0, 155)} canonical={`/bonds/${type}`} />
       <section className="bg-primary text-primary-foreground py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="flex items-center gap-4 mb-4">

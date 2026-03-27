@@ -1,8 +1,10 @@
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 
 const Privacy = () => {
   return (
     <Layout>
+      <SEO title="Privacy Policy" description="Read the Sync Insurance Agency privacy policy. Learn how we collect, use, and protect your personal information." canonical="/privacy" />
       <section className="bg-primary text-primary-foreground py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-4">Privacy Policy</h1>

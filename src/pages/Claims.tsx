@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { FileText, Phone, CheckCircle, Clock, AlertTriangle } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const steps = [
   { title: "Report the Incident", desc: "Contact us immediately to report the incident. Call our claims hotline or visit our office." },
@@ -15,6 +16,7 @@ const steps = [
 const Claims = () => {
   return (
     <Layout>
+      <SEO title="Claims" description="File an insurance claim with Sync Insurance Agency. Follow our simple step-by-step process for quick and efficient claims resolution." canonical="/claims" />
       <section className="bg-primary text-primary-foreground py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-4">Insurance Claims</h1>
