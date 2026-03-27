@@ -5,6 +5,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Shield, Heart, Car, Briefcase, Users, Plane, Tractor, FileCheck, Package, ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, Clock, Award } from "lucide-react";
 import Layout from "@/components/Layout";
 import ContactForm from "@/components/ContactForm";
+import SEO from "@/components/SEO";
 
 const services = [
   { icon: Heart, title: "Health Insurance", desc: "Comprehensive medical coverage for you and your family. Access quality healthcare without financial worry.", path: "/services/health" },

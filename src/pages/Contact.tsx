@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import ContactForm from "@/components/ContactForm";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import SEO from "@/components/SEO";
 
 const Contact = () => {
   return (

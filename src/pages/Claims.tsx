@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { FileText, Phone, CheckCircle, Clock, AlertTriangle } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const steps = [
   { title: "Report the Incident", desc: "Contact us immediately to report the incident. Call our claims hotline or visit our office." },

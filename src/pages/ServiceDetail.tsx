@@ -3,6 +3,7 @@ import Layout from "@/components/Layout";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, ArrowRight } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const serviceData: Record<string, { title: string; desc: string; features: string[]; benefits: string[] }> = {
   health: {

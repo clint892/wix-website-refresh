@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import { Card, CardContent } from "@/components/ui/card";
 import { Calendar } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const articles = [
   { title: "Understanding Health Insurance in Kenya", date: "March 10, 2026", excerpt: "A comprehensive guide to choosing the right health insurance plan for you and your family in Kenya.", category: "Health" },

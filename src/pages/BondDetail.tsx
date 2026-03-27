@@ -3,6 +3,7 @@ import Layout from "@/components/Layout";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, Shield, FileCheck } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const bondData: Record<string, { title: string; icon: any; desc: string; details: string; types: string[]; process: string[] }> = {
   performance: {

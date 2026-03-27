@@ -3,6 +3,7 @@ import { Shield, Target, Eye, Users, Award, CheckCircle, Heart } from "lucide-re
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import SEO from "@/components/SEO";
 
 const team = [
   { name: "John Kamau", role: "Managing Director", desc: "20+ years in insurance industry leadership." },
