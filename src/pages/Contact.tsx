@@ -24,7 +24,7 @@ const Contact = () => {
             <div className="space-y-6">
               <h2 className="font-display text-2xl font-bold mb-6">Contact Information</h2>
               {[
-                { icon: Phone, title: "Phone", lines: ["+254 702 694 056"] },
+                { icon: Phone, title: "Phone", lines: ["+254702694056"]},
                 { icon: Mail, title: "Email", lines: ["info@syncinsurancagency.com"] },
                 { icon: MapPin, title: "Office", lines: ["Jubilee Exchange Building, Mama Ngina Street", "P.O Box 34367-00100, Nairobi, Kenya"] },
                 { icon: Clock, title: "Business Hours", lines: ["Mon - Fri: 8:00 AM - 5:00 PM", "Sat: 9:00 AM - 1:00 PM"] },
