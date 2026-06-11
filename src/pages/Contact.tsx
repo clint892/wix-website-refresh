@@ -7,7 +7,7 @@ import SEO from "@/components/SEO";
 const Contact = () => {
   return (
     <Layout>
-      <SEO title="Contact Us" description="Get in touch with Sync Insurance Agency. Call +254 702 694 056 or visit us at Jubilee Exchange Building, Nairobi." canonical="/contact" />
+      <SEO title="Contact Us" description="Get in touch with Sync Insurance Agency. Call +254 715 656 204 or visit us at Jubilee Exchange Building, Nairobi." canonical="/contact" />
       <section className="bg-primary text-primary-foreground py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
@@ -24,7 +24,7 @@ const Contact = () => {
             <div className="space-y-6">
               <h2 className="font-display text-2xl font-bold mb-6">Contact Information</h2>
               {[
-                { icon: Phone, title: "Phone", lines: ["+254 702 694 056"]  },
+                { icon: Phone, title: "Phone", lines: ["+254 715 656 204"]  },
                 { icon: Mail, title: "Email", lines: ["info@syncinsurancagency.com"] },
                 { icon: MapPin, title: "Office", lines: ["Jubilee Exchange Building, Mama Ngina Street", "P.O Box 34367-00100, Nairobi, Kenya"] },
                 { icon: Clock, title: "Business Hours", lines: ["Mon - Fri: 8:00 AM - 5:00 PM", "Sat: 9:00 AM - 1:00 PM"] },
