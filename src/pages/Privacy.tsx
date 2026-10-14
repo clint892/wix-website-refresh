@@ -50,7 +50,7 @@ const Privacy = () => {
           </p>
           <ul className="text-muted-foreground mb-6 list-none pl-0 space-y-1">
             <li>Email: info@syncinsurancagency.com</li>
-            <li>Phone: +254 750 612 347</li>
+            <li>Phone: +254 733 522 039</li>
             <li>Address: Jubilee Exchange Building, Mama Ngina Street, P.O Box 34367-00100, Nairobi, Kenya</li>
           </ul>
         </div>

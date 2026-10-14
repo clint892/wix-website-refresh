@@ -244,7 +244,7 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
             <div className="space-y-6">
               {[
-                { icon: Phone, title: "Call Us", detail: "+254 750 612 347" },
+                { icon: Phone, title: "Call Us", detail: "+254 733 522 039" },
                 { icon: Mail, title: "Email Us", detail: "info@syncinsurancagency.com" },
                 { icon: MapPin, title: "Visit Us", detail: "Jubilee Exchange Building, Mama Ngina Street", sub: "P.O Box 34367-00100, Nairobi, Kenya" },
               ].map((c) => (
@@ -297,7 +297,7 @@ const Index = () => {
                 Get Your Free Quote
               </Button>
             </Link>
-            <a href="tel:+254700000000">
+            <a href="tel:+254733522039">
               <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold px-8">
                 <Phone className="h-4 w-4 mr-2" /> Call Us Now
               </Button>
