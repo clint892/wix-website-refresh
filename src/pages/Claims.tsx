@@ -30,7 +30,7 @@ const Claims = () => {
       <section className="py-12 bg-gray-bg">
         <div className="container mx-auto px-4 grid md:grid-cols-3 gap-6 max-w-4xl">
           {[
-            { icon: Phone, title: "Claims Hotline", desc: "+254 750 612 347", sub: "Available 24/7" },
+            { icon: Phone, title: "Claims Hotline", desc: "+254 733 522 039", sub: "Available 24/7" },
             { icon: FileText, title: "Download Forms", desc: "Get claim forms", sub: "PDF format" },
             { icon: Clock, title: "Processing Time", desc: "7-14 business days", sub: "Average turnaround" },
           ].map((item) => (
@@ -97,7 +97,7 @@ const Claims = () => {
             <Link to="/contact">
               <Button size="lg" className="bg-accent text-accent-foreground hover:bg-sky-light font-semibold px-8">Contact Claims Team</Button>
             </Link>
-            <a href="tel:+254700000000">
+            <a href="tel:+254733522039">
               <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 px-8">
                 <Phone className="h-4 w-4 mr-2" /> Call Hotline
               </Button>
